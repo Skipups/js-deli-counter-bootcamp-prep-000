@@ -50,5 +50,3 @@ return  "The line is currently empty."
 }
 return `The line is currently:${numbered.toString()}`;
 }
-=======
->>>>>>> c7527a947a16bc9a137c6457f6f47e6fd69eef3c
