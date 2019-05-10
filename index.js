@@ -9,6 +9,11 @@ function takeANumber(numInLine, name){
   return `Welcome, ${name}. You are number ${numInLine.length} in line.`;
 };
 
+function takeANumber(numInLine){
+  let x= 0;
+  numInLine.push[x]
+  return numInLine.length
+}
 //Build a function nowServing. This function should accept the current line of people (katzDeliLine)
 //and return the first person in line and then remove that individual from the line. If there is nobody in line,
 //it should return "There is nobody waiting to be served!"
