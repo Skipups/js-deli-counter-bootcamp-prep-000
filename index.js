@@ -13,13 +13,19 @@ function takeANumber(numInLine, name){
 //and return the first person in line and then remove that individual from the line. If there is nobody in line,
 //it should return "There is nobody waiting to be served!"
 function nowServing(numInLine){
+<<<<<<< HEAD
    if (numInLine.length>0){
+=======
+
+  if (numInLine.length>0){
+>>>>>>> c7527a947a16bc9a137c6457f6f47e6fd69eef3c
      return `Currently serving ${numInLine.shift()}.`;  // return the 1st person in line and removes them from the line.
                                                      // The shift() method removes the first element from an array and returns that removed element. This method changes the length of the array.
   } else {
     return "There is nobody waiting to be served!";
   }
 }
+<<<<<<< HEAD
 
 //Build a function currentLine that accepts the current line of people and returns the current line as a string;
 // for example, if 'katzDeliLine' is currently ["Ada", "Grace"], currentLine(katzDeliLine) would return
@@ -49,3 +55,5 @@ return  "The line is currently empty."
 }
 return `The line is currently:${numbered.toString()}`;
 }
+=======
+>>>>>>> c7527a947a16bc9a137c6457f6f47e6fd69eef3c
